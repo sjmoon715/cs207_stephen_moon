@@ -11,7 +11,7 @@ class Sentence:
         return 'Sentence(%s)' % reprlib.repr(self.text)
 
 if __name__ == "__main__":
-    sent = Sentence("My name is Stephen")
-    for i in sent:
+    sentence = Sentence("My name is Stephen")
+    for i in sentence:
         print(i)
     
